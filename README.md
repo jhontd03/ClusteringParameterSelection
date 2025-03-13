@@ -21,13 +21,21 @@ The main goal is to group similar parameter configurations and select the most e
 
 ## Installation
 
+Clone the repository and install the required dependencies:
+
+```bash
+git clone https://github.com/jhontd03/ClusteringParameterSelection.git
+cd ClusteringParameterSelection
+pip install -r requirements.txt
+```
+
 ### Requirements
 
 The project requires Python 3.11.9 and the key dependencies:
 
-```bash
-pip install -r requirements.txt
-```
+- pandas
+- scikit-learn
+- yellowbrick
 
 ## Usage
 
